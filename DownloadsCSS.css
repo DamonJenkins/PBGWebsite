@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#9CF;
+}
+
+#title{
+	font: "Lucida Console", Monaco, monospace;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom: 12px;
+	top: 5px;
+ 	color:#006666;
+	font-size:90px;
+	text-shadow: 0 1px 0 #005C5C,
+ 	0 2px 0 #005252,
+ 	0 3px 0 #004747,
+ 	0 4px 0 #003D3D,
+ 	0 5px 0 #003333,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.4),
+ 	0 3px 5px rgba(0,0,0,.50),
+ 	0 5px 10px rgba(0,0,0,.80),
+ 	0 10px 10px rgba(0,0,0,.60),
+ 	0 20px 20px rgba(0,0,0,.75);
+	margin-top: 15px;
+}
+
+#damonandrugby{
+}
+
+#damon{
+	margin-top: 100px;
+	margin-bottom: 5px;
+	text-align:left;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#damontable{
+	float:left;
+	border:0px #9cf;
+	border-collapse:collapse;
+	width:340px; 
+	height:33; 
+	border:3; 
+	align:left;
+	cellpadding:3; 
+	cellspacing:3;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#gg{
+	left: 0px;
+	text-decoration: none;
+}
+
+#rugbytable{
+	float:left;
+	border:0px #9cf;
+	border-collapse:collapse;
+	margin-bottom: 50px;
+	width:340px; 
+	height:33; 
+	border:3; 
+	align:left;
+	cellpadding:3; 
+	cellspacing:3;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#warning{
+	font-size:18px;
+	text-align: center;
+	margin-bottom: 2px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#pydownload{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 2px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#rugby{
+	text-align: left;
+	margin-top: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+a.gamedownloads{
+	text-decoration:none;
+}
+
+#return{
+	margin-top:20px;
+	text-align: center;
+	text-decoration: none;
+	font-family:"Courier New", Courier, monospace;
+	font:"Courier New", Courier, monospace;
+	color:#000;
+}

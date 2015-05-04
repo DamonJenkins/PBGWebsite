@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body{
+	background-color:#4D944D;
+}
+
+#title{
+	font: "Lucida Console", Monaco, monospace;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom: 12px;
+	top: 5px;
+ 	color:#009900;
+	font-size:75px;
+	text-shadow: 0 1px 0 #008a00,
+ 	0 2px 0 #007a00,
+ 	0 3px 0 #006b00,
+ 	0 4px 0 #005c00,
+ 	0 5px 0 #004c00,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.4),
+ 	0 3px 5px rgba(0,0,0,.50),
+ 	0 5px 10px rgba(0,0,0,.80),
+ 	0 10px 10px rgba(0,0,0,.60),
+ 	0 20px 20px rgba(0,0,0,.75);
+	margin-top: 15px;
+}
+
+#subtitle{
+	text-align:center;
+	font-size:18px;
+}
+
+#videos{
+	text-align:center;
+}
+
+#return{
+	text-align: center;
+	text-decoration: none;
+	font-family:"Courier New", Courier, monospace;
+	font:"Courier New", Courier, monospace;
+	color:#000;
+}

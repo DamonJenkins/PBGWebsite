@@ -1,0 +1,15 @@
+#content{
+	text-align: center;
+	font-size: 120%;
+	background: none;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 300; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: 300;
+}
+
+@-webkit-keyframes bgfade{
+	0% {background-color: }
+}
