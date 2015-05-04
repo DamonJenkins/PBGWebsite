@@ -1,0 +1,46 @@
+#content{
+	text-align: center;
+	font-size: 120%;
+}
+
+#contentul{
+	border: 0;
+    height: 2px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,1.0), rgba(0,0,0,1)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,1.0), rgba(0,0,0,1)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,1.0), rgba(0,0,0,1)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,1.0), rgba(0,0,0,1));
+	margin-top: 5px;
+	width: 0%;
+	-webkit-transition: all;
+}
+
+#content:hover + #contentul{
+	-webkit-animation-fill-mode: forwards;
+	-webkit-animation-name: bgfadein; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 1; /* Chrome, Safari, Opera */
+    animation-name: bgfadein;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes bgfadein{
+	0% {width: 0%;}
+	100% {width: 100%;}
+}
+
+@keyframes bgfadein{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
+}
+
+@-webkit-keyframes bgfadeout{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
+}
+
+@keyframes bgfadeout{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
+}

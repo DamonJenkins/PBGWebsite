@@ -295,6 +295,8 @@ body {
     background-image:     -ms-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,1.0), rgba(0,0,0,1)); 
     background-image:      -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,1.0), rgba(0,0,0,1));
 	margin-top: 5px;
+	-webkit-animation: bgfadein;
+	-webkit-animation-duration: 2s;
 }
 
 #subtitleul {
@@ -304,7 +306,29 @@ body {
     background-image:    -moz-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,1)); 
     background-image:     -ms-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,1)); 
     background-image:      -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,1));
+	-webkit-animation: bgfadein;
+	-webkit-animation-duration: 2.5s;
 
+}
+
+@-webkit-keyframes bgfadein{
+	0% {width: 0%;}
+	100% {width: 100%;}
+}
+
+@keyframes bgfadein{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
+}
+
+@-webkit-keyframes bgfadeout{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
+}
+
+@keyframes bgfadeout{
+	0% {background-color: #ffffff;}
+	100% {background-color: #4c4c4c;}
 }
 
 #twitterlnk {
@@ -335,10 +359,6 @@ body {
 
 #videobrowse{
 	text-decoration:none;
-}
-
-#cagianity{
-	text-decoration: none;
 }
 
 #censorb {
