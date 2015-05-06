@@ -14,7 +14,7 @@ angular.module('myApp', []).controller('namesCtrl', function($scope) {
 					
         {videoUrl:"https://www.youtube.com/watch?v=6b2oc7MUb9o", imgUrl:"https://i.ytimg.com/vi/6b2oc7MUb9o/hqdefault.jpg?w=240&h=136&sigh=Snlp_iSR-UkUkNg_2T_ilTckZ9s",name:"Rugby Breaks Sleeping Dogs?",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=xX6hWZml8Bw", imgUrl:"https://i.ytimg.com/vi/xX6hWZml8Bw/hqdefault.jpg?w=240&h=136&sigh=EgvIqMdrQzbOmWHGt4Po4Kx80hw",name:"Minecraft Survival Episode 4 I've Broken It",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=xX6hWZml8Bw", imgUrl:"https://i.ytimg.com/vi/xX6hWZml8Bw/hqdefault.jpg?w=240&h=136&sigh=EgvIqMdrQzbOmWHGt4Po4Kx80hw",name:"Minecraft Survival Episode 4",players:"", date:""},
 					
         {videoUrl:"https://www.youtube.com/watch?v=QV5ZYMM-bN4", imgUrl:"https://i.ytimg.com/vi/QV5ZYMM-bN4/hqdefault.jpg?w=240&h=136&sigh=eb7YJs9WL5mOPxKa2tyUemOBrcI",name:"Super Meat Boy",players:"", date:""},
 					
@@ -28,21 +28,21 @@ angular.module('myApp', []).controller('namesCtrl', function($scope) {
 					
         {videoUrl:"https://www.youtube.com/watch?v=7Q0nyiDbS6k", imgUrl:"https://i.ytimg.com/vi/7Q0nyiDbS6k/hqdefault.jpg?w=240&h=136&sigh=nmYsHn2SDdJkLoi-GgO_RkfjGUY",name:"Tree Quest - Minecraft Survival",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=f4ygTaDxKyU", imgUrl:"https://i.ytimg.com/vi/f4ygTaDxKyU/hqdefault.jpg?w=240&h=136&sigh=skw8rjKulXlvNiWUDXaWDBNU9TI",name:"Minecraft Survival Episode 3 - Calm Down Computer",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=f4ygTaDxKyU", imgUrl:"https://i.ytimg.com/vi/f4ygTaDxKyU/hqdefault.jpg?w=240&h=136&sigh=skw8rjKulXlvNiWUDXaWDBNU9TI",name:"Minecraft Survival Episode 3",players:"", date:""},
 					
         {videoUrl:"https://www.youtube.com/watch?v=6krE2RrpW9s", imgUrl:"https://i.ytimg.com/vi/6krE2RrpW9s/hqdefault.jpg?w=240&h=136&sigh=H3bx201tHVDPv7QNEwZFwD9RtsU",name:"Sanctum 2",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=Hbux4X7FEvY", imgUrl:"https://i.ytimg.com/vi/Hbux4X7FEvY/hqdefault.jpg?w=240&h=136&sigh=CIZeVLMFEi9gjxgiHtg2h99kbNs",name:"Payday 2: Day Two, Damons A Dick",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=Hbux4X7FEvY", imgUrl:"https://i.ytimg.com/vi/Hbux4X7FEvY/hqdefault.jpg?w=240&h=136&sigh=CIZeVLMFEi9gjxgiHtg2h99kbNs",name:"Payday 2: Damons A Dick",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=ioeesB1yYyw", imgUrl:"https://i.ytimg.com/vi/ioeesB1yYyw/hqdefault.jpg?w=240&h=136&sigh=GrytTm0iFZUFz4uXxcgQY7RPEZk",name:"Payday 2: Day One, Subscribe to my Uncle",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=ioeesB1yYyw", imgUrl:"https://i.ytimg.com/vi/ioeesB1yYyw/hqdefault.jpg?w=240&h=136&sigh=GrytTm0iFZUFz4uXxcgQY7RPEZk",name:"Payday 2: Subscribe to my Uncle",players:"", date:""},
 					
         {videoUrl:"https://www.youtube.com/watch?v=wxU-7YFA93E", imgUrl:"https://i.ytimg.com/vi/wxU-7YFA93E/hqdefault.jpg?w=240&h=136&sigh=a2LH101ZriKxHqZdr6axxzfRU4Q",name:"Team Fortress 2... Again",players:"", date:""},
 					
         {videoUrl:"https://www.youtube.com/watch?v=_H_QKWzQodU", imgUrl:"https://i.ytimg.com/vi/_H_QKWzQodU/hqdefault.jpg?w=240&h=136&sigh=Rvo1DLpPoyBRJsSgYZY5f6RYu6s",name:"Payday 2 - Jumping is Criminal",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=qIPZg0uTQfA", imgUrl:"https://i.ytimg.com/vi/qIPZg0uTQfA/hqdefault.jpg?w=240&h=136&sigh=oIg5ZXO_48uvRUxdWQMZL0H-eDk",name:"Minecraft Survival Episode 2 - Mining",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=qIPZg0uTQfA", imgUrl:"https://i.ytimg.com/vi/qIPZg0uTQfA/hqdefault.jpg?w=240&h=136&sigh=oIg5ZXO_48uvRUxdWQMZL0H-eDk",name:"Minecraft Survival Episode 2",players:"", date:""},
 					
-        {videoUrl:"https://www.youtube.com/watch?v=NJ-_c3WWCHg", imgUrl:"https://i.ytimg.com/vi/NJ-_c3WWCHg/hqdefault.jpg?w=240&h=136&sigh=fGz8irG09YnhwIAaau8Y6bvGIqc",name:"Minecraft Survival Episode 1 - A New Beginning",players:"", date:""},
+        {videoUrl:"https://www.youtube.com/watch?v=NJ-_c3WWCHg", imgUrl:"https://i.ytimg.com/vi/NJ-_c3WWCHg/hqdefault.jpg?w=240&h=136&sigh=fGz8irG09YnhwIAaau8Y6bvGIqc",name:"Minecraft Survival Episode 1",players:"", date:""},
 					
         {videoUrl:"https://www.youtube.com/watch?v=tN0GGMed3ig", imgUrl:"https://i.ytimg.com/vi/tN0GGMed3ig/hqdefault.jpg?w=240&h=136&sigh=yEquFx9CqLls6Ya98i_m_iNO5e0",name:"TF2",players:"", date:""},
 					
