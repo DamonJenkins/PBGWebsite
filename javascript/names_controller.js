@@ -64,8 +64,3 @@ angular.module('myApp', []).controller('namesCtrl', function($scope) {
 		
     ];
 });
-
-//https://i.ytimg.com/vi_webp/17N4xfw9tcE/mqdefault.webp
-//https://i.ytimg.com/vi/17N4xfw9tcE/hqdefault.jpg?w=240&h=136&sigh=01JQL2oIPmX_Bn4fd9PD8LxtbRk
-//https://i.ytimg.com/vi_webp/wJRh1Z1muuc/mqdefault.webp
-//https://i.ytimg.com/vi/wJRh1Z1muuc/hqdefault.jpg?w=240&h=136&sigh=SfkfWcybmeFa-yIt9NBtR5LzmBo
