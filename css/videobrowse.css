@@ -53,16 +53,18 @@ body{
 }
 
 #sidebar{
-	position: absolute;
+	position: fixed;
 	background-color: #e61616;
 	left: 0px;
-	bottom: -10%;
+	top: 15%;
 	width: 7.25%;
-	margin-top: 0.001px;
-	margin-left: 0px;
 	text-align: right;
-	height: 100%;
+	min-width: 98px;
+	vertical-align:middle;
 	z-index:1;
+	border: solid 2px #921212;
+	border-left:none;
+	border-radius: 5px;
 }
 
 .sortbutton {
@@ -91,7 +93,7 @@ body{
 	text-shadow:0px 1px 0px #854629;
 	text-align:center;
 	width: 100%;
-	margin-bottom:2px;
+	margin: 0 0 0 0;
 }
 .sortbutton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ad1d00), color-stop(1, #ff3700));
@@ -113,7 +115,6 @@ body{
 }
 
 #firstButton {
-	margin-top: 0px;
 }
 
 #secondButton {
@@ -129,7 +130,6 @@ body{
 }
 
 #fifthButton {
-	
 }
 
 #search{
@@ -148,4 +148,10 @@ body{
 
 .videoName {
 	text-align:center;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.videoimg{
+	border:solid thin #000;	
 }

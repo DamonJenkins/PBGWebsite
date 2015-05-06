@@ -26,9 +26,9 @@
         <div id="search" ng-app="myApp" ng-controller="namesCtrl">    
           <p>Search: <input type="text" placeholder="Search Things" ng-model="test"></p>
             
-              <div class="videoList" ng-repeat="x in names | filter:test | orderBy:'date'">
+              <div class="videoList" ng-repeat="x in names | filter:test | orderBy:'-date'">
                 <a href="{{x.videoUrl}}" target="_blank">
-                <img src="{{x.imgUrl}}" alt="F**k you and your inability to see this image"></a><br>
+                <img class="videoimg" src="{{x.imgUrl}}" alt="F**k you and your inability to see this image"></a><br>
                 <style text-align:"center" type="text/css"></style><span class="videoName">{{x.name}}</span></style>
               </div>
         </div>
