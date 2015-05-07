@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#FFC2FF;
+}
+
+#title{
+ 	color:#ff66ff;
+	text-shadow: 0 1px 0 #e65ce6,
+ 	0 2px 0 #cc52cc,
+ 	0 3px 0 #b247b2,
+ 	0 4px 0 #993d99,
+ 	0 5px 0 #803380,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.4),
+ 	0 3px 5px rgba(0,0,0,.50),
+ 	0 5px 10px rgba(0,0,0,.80),
+ 	0 10px 10px rgba(0,0,0,.60),
+ 	0 20px 20px rgba(0,0,0,.75);
+}
+
+#subtitle{
+	text-align:center;
+	font-size:18px;
+}
+
+#return{
+	text-align: center;
+	text-decoration: none;
+	font-family:"Courier New", Courier, monospace;
+	font:"Courier New", Courier, monospace;
+	color:#000;
+}
