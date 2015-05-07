@@ -24,7 +24,7 @@
     	</div>
         <div id="parent">
         <div id="search" ng-app="myApp" ng-controller="namesCtrl">    
-          <p>Search: <input type="text" placeholder="Search Things" ng-model="test"></p>
+          <p>Search: <input id="searchbar" type="text" placeholder="Search Things" ng-model="test.name"></p>
             
               <div class="videoList" ng-repeat="x in names | filter:test | orderBy:'-date'">
                 <a href="{{x.videoUrl}}" target="_blank">
