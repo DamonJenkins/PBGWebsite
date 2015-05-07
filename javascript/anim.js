@@ -1,6 +1,6 @@
 // JavaScript Document
 
-function startup(){
+function startUp(){
 	setTimeout(function(){
 	$("#tsec1").css({
 		"font-family" : "Lucida Console",

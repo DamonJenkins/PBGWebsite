@@ -1,20 +1,11 @@
 @charset "utf-8";
 
-body {
-	background-color:#9CF;
-}
-
 #titlediv {
 		
 }
 
 
 #wrapper h1{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
 	top: 5px;
  	color:#FFFFFF;
 	font-size:75px;
@@ -38,38 +29,35 @@ body {
 	margin: 0;	
 }
 
-#tsec1{
-        font-family : Lucida Console;
-        font-weight : bold;
-        text-align : center;
-        margin-bottom : 12px;
-        top : 0px;
-        color : #0033cc;
-        font-size : 75px;
-        text-shadow : 0px 1px 0px #002eb8,
-		0px 2px 0px #0029a3,
-		0px 3px 0px #00248f,
-		0px 4px 0px #001f7a,
-		0px 5px 0px #001a66,
-		0px 6px 1px rgba(0,0,0,.1),
-		0px 0px 5px rgba(0,0,0,.1),
-		0 1px 3px rgba(0,0,0,.4),
-		0 3px 5px rgba(0,0,0,.5), 
-		0 5px 10px rgba(0,0,0,.8),
-		0 10px 10px rgba(0,0,0,.6),
-		0 20px 20px rgba(0,0,0,.75);
-        margin-top: 15px;
+#maintitle{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight : bold;
+	text-align : center;
+	margin-bottom : 12px;
+	top : 0px;
+	font-size : 75px;
+	margin-top: 15px;
+	text-decoration:none;
 }
 
-#tsec1:hover{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 0px;
+.tsec1{
+	color : #0033cc;
+	text-shadow : 0px 1px 0px #002eb8,
+	0px 2px 0px #0029a3,
+	0px 3px 0px #00248f,
+	0px 4px 0px #001f7a,
+	0px 5px 0px #001a66,
+	0px 6px 1px rgba(0,0,0,.1),
+	0px 0px 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.4),
+	0 3px 5px rgba(0,0,0,.5), 
+	0 5px 10px rgba(0,0,0,.8),
+	0 10px 10px rgba(0,0,0,.6),
+	0 20px 20px rgba(0,0,0,.75);
+}
+
+span.tsec1:hover{
  	color:#0066ff;
-	font-size:75px;
 	text-shadow: 0 1px 0 #005ce6,
  	0 2px 0 #0052cc,
  	0 3px 0 #0047b2,
@@ -82,22 +70,14 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
 #bradleylink{
 	text-decoration: none;
 }
 
-#tsec2{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+.tsec2{
  	color:#009900;
-	font-size:75px;
 	text-shadow: 0 1px 0 #008a00,
  	0 2px 0 #007a00,
  	0 3px 0 #006b00,
@@ -110,19 +90,10 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
-#tsec2:hover{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	font-size: 200%;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+span.tsec2:hover{
  	color:#00cc00;
-	font-size:75px;
 	text-shadow: 0 1px 0 #00b800,
  	0 2px 0 #00a300,
  	0 3px 0 #008f00,
@@ -135,22 +106,14 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 12px;
 }
 
 #rugbylink{
 	text-decoration: none;
 }
 
-#tsec3{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+.tsec3{
  	color:#9900cc;
-	font-size:75px;
 	text-shadow: 0 1px 0 #8a00b8,
  	0 2px 0 #7a00a3,
  	0 3px 0 #6b008f,
@@ -163,18 +126,10 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
-#tsec3:hover{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+span.tsec3:hover{
  	color:#cc00cc;
-	font-size:75px;
 	text-shadow: 0 1px 0 #b800b8,
  	0 2px 0 #a300a3,
  	0 3px 0 #8f008f,
@@ -187,22 +142,14 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
 #damonlink{
 	text-decoration: none;	
 }
 
-#tsec4{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+.tsec4{
  	color:#cc3300;
-	font-size:75px;
 	text-shadow: 0 1px 0 #b82e00,
  	0 2px 0 #a32900,
  	0 3px 0 #8f2400,
@@ -215,18 +162,10 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
-#tsec4:hover{
-	font: "Lucida Console", Monaco, monospace;
-	font-family: "Lucida Console", Monaco, monospace;
-	font-weight: bold;
-	text-align:center;
-	margin-bottom: 12px;
-	top: 5px;
+span.tsec4:hover{
  	color:#ff6600;
-	font-size:75px;
 	text-shadow: 0 1px 0 #e65c00,
  	0 2px 0 #cc5200,
  	0 3px 0 #b24700,
@@ -239,14 +178,49 @@ body {
  	0 5px 10px rgba(0,0,0,.80),
  	0 10px 10px rgba(0,0,0,.60),
  	0 20px 20px rgba(0,0,0,.75);
-	margin-top: 15px;
 }
 
 #perrylink{
 	text-decoration: none;
 }
 
-#subtitle {
+.tsec5{
+ 	color:#ff3399;
+	text-shadow: 0 1px 0 #E62E8A,
+ 	0 2px 0 #CC297A,
+ 	0 3px 0 #B2246B,
+ 	0 4px 0 #991F5C,
+ 	0 5px 0 #801A4C,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.4),
+ 	0 3px 5px rgba(0,0,0,.50),
+ 	0 5px 10px rgba(0,0,0,.80),
+ 	0 10px 10px rgba(0,0,0,.60),
+ 	0 20px 20px rgba(0,0,0,.75);
+}
+
+span.tsec5:hover{
+ 	color:#FF3083;
+	text-shadow: 0 1px 0 #E62B76,
+ 	0 2px 0 #CC2669,
+ 	0 3px 0 #B2225C,
+ 	0 4px 0 #991D4F,
+ 	0 5px 0 #801842,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.4),
+ 	0 3px 5px rgba(0,0,0,.50),
+ 	0 5px 10px rgba(0,0,0,.80),
+ 	0 10px 10px rgba(0,0,0,.60),
+ 	0 20px 20px rgba(0,0,0,.75);
+}
+
+#alistairlink{
+	text-decoration:none;
+}
+
+#subtitlemain {
 	font-size: 20px;
 	text-align: center;
 	word-spacing: 30px;
