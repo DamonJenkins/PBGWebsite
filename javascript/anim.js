@@ -3,7 +3,7 @@
 function startUp(){
 	setTimeout(function(){
 	$("#tsec1").css({
-		"font-family" : "Lucida Console",
+		"font-family" : "Lucida Console, Monaco, monospace",
         "font-weight" : "bold",
         "text-align" : "center",
         "margin-bottom" : "12px",
@@ -99,5 +99,5 @@ function startUp(){
 	})
 	//Next
 	
-}, 4500);
+}, 4000);
 }
