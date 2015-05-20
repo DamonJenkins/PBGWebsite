@@ -183,21 +183,12 @@ span.tsec4:hover{
 }
 
 .tsec5{
-<<<<<<< HEAD
- 	color:#FF3399;
-	text-shadow: 0 1px 0 #e62e8a,
- 	0 2px 0 #cc297a,
- 	0 3px 0 #b2246b,
- 	0 4px 0 #991f5c,
- 	0 5px 0 #801a4c,
-=======
  	color:#ff3399;
 	text-shadow: 0 1px 0 #E62E8A,
  	0 2px 0 #CC297A,
  	0 3px 0 #B2246B,
  	0 4px 0 #991F5C,
  	0 5px 0 #801A4C,
->>>>>>> origin/master
  	0 6px 1px rgba(0,0,0,.1),
  	0 0 5px rgba(0,0,0,.1),
  	0 1px 3px rgba(0,0,0,.4),
