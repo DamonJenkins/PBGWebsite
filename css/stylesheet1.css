@@ -185,12 +185,12 @@ span.tsec4:hover{
 }
 
 .tsec5{
- 	color:#ff66ff;
-	text-shadow: 0 1px 0 #e65ce6,
- 	0 2px 0 #cc52cc,
- 	0 3px 0 #b247b2,
- 	0 4px 0 #993d99,
- 	0 5px 0 #803380,
+ 	color:#FF3399;
+	text-shadow: 0 1px 0 #e62e8a,
+ 	0 2px 0 #cc297a,
+ 	0 3px 0 #b2246b,
+ 	0 4px 0 #991f5c,
+ 	0 5px 0 #801a4c,
  	0 6px 1px rgba(0,0,0,.1),
  	0 0 5px rgba(0,0,0,.1),
  	0 1px 3px rgba(0,0,0,.4),
@@ -201,12 +201,12 @@ span.tsec4:hover{
 }
 
 span.tsec5:hover{
- 	color:#FF3083;
-	text-shadow: 0 1px 0 #E62B76,
- 	0 2px 0 #CC2669,
- 	0 3px 0 #B2225C,
- 	0 4px 0 #991D4F,
- 	0 5px 0 #801842,
+ 	color:#ff70b8;
+	text-shadow: 0 1px 0 #E665A6,
+ 	0 2px 0 #CC5A93,
+ 	0 3px 0 #B24E81,
+ 	0 4px 0 #99436E,
+ 	0 5px 0 #80385C,
  	0 6px 1px rgba(0,0,0,.1),
  	0 0 5px rgba(0,0,0,.1),
  	0 1px 3px rgba(0,0,0,.4),
@@ -520,3 +520,4 @@ span.tsec5:hover{
 	top:1px;
 	outline:none;
 }
+
