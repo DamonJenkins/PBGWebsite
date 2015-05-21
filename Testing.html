@@ -1,33 +1,19 @@
+<!doctype html>
 <html>
     <head>
-        <title>Mobile Detection</title>
+    	<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    	<script type="text/javascript" src="javascript/names_controller.js"> </script>
+        <title>Testing</title>
     </head>
     <body>
-        <input type="button" OnClick="DetectIphone()" value="What am I?" />
+        <input type="button" OnClick="hopefulPush()" value="Push" />
     </body>
 </html>
 <script>
-// This syntax is extremely weird... did you copy and paste this damon!?
-// It works. Good enough for me
-    function DetectIphone(){
-       var uagent = navigator.userAgent.toLowerCase();
-       if (uagent.search("iphone") > -1){
-          alert("An iPhone");
-	   }
-	   
-	   else if (uagent.search("ipad") > -1){
-		   alert("An iPad")
-	   }
-	   
-	   	   else if (uagent.search("blackberry") > -1){
-		   alert("A BlackBerry")
-	   }
-	   
-	   	   else if (uagent.search("android") > -1){
-		   alert("An Android")
-	   }
-	   	   else{
-		   alert("A PC/ Mac")
-	   }
-    }
+	function hopefulPush(){
+		names.push({
+			videoUrl: Videobrowse.html
+		})
+	}
+
 </script>

@@ -30,7 +30,7 @@ function startUp(){
         "text-shadow" : "0px 1px 0px #002eb8,0px 2px 0px #0029a3,0px 3px 0px #00248f,0px 4px 0px #001f7a,0px 5px 0px #001a66,0px 6px 1px rgba(0,0,0,.1),0px 0px 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4), 0 3px 5px rgba(0,0,0,.5), 0 5px 10px rgba(0,0,0,.8), 0 10px 10px rgba(0,0,0,.6), 0 20px 20px rgba(0,0,0,.75)",
         "margin-top" : "15px"
 		});
-	})
+	});
 	//Next
 		$("#tsec2").css({
 			"color" : "#009900",
@@ -97,7 +97,6 @@ function startUp(){
 		"text-shadow" : "0 1px 0 #e62e8a,0 2px 0 #cc297a,0 3px 0 #b2246b,0 4px 0 #991f5c,0 5px 0 #801a4c,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4),0 3px 5px rgba(0,0,0,.50),0 5px 10px rgba(0,0,0,.80),0 10px 10px rgba(0,0,0,.60),0 20px 20px rgba(0,0,0,.75)"
 		});
 	})
-	//Next
 	
 }, 4000);
 }
