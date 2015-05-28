@@ -231,7 +231,12 @@ span.tsec5:hover{
 	left: 8px;
 	bottom: 8px;
 	width: 90x;
-	height: 57px;	
+	height: 57px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+		
 }
 
 #youtubepicture:hover {
@@ -248,7 +253,11 @@ span.tsec5:hover{
 	left: 8px;
 	bottom: 68px;
 	width: 101.5px;
-	height: 57px;	
+	height: 57px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 #fbpic:hover {
@@ -450,7 +459,11 @@ span.tsec5:hover{
 	left: 8px;
 	bottom: 128px;
 	width: 102px;
-	height: 57px;	
+	height: 57px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;	
 }
 
 #twitterlnk:hover {
