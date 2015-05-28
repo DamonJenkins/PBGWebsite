@@ -16,7 +16,7 @@
 <header id="title">Browse Our Videos!</header>
 </div>
     	<div id="sidebar">
-			<button id="firstButton" class="sortbutton" type="button" onClick="makeTrueP()">Perry</button><br>
+			<button id="firstButton" class="sortbutton" type="button" onClick="makeTrueP()" ng-click="filters = 'Perry'">Perry</button><br>
         	<button id="secondButton" class="sortbutton" type="button" onClick="makeTrueD()">Damon</button><br>
         	<button id="thirdButton" class="sortbutton" type="button" onClick="makeTrueR()">Rugby</button><br>
         	<button id="fourthButton" class="sortbutton" type="button" onClick="makeTrueB()">Bradley</button><br>
@@ -24,9 +24,9 @@
     	</div>
         <div id="parent">
         <div id="search" ng-app="myApp" ng-controller="namesCtrl">    
-          <p>Search: <input id="searchbar" type="text" placeholder="Search Things" ng-model="test.name"></p>
+          <p>Search: <input id="searchbar" type="text" placeholder="Search Things" ng-model="filters.name"></p>
             
-              <div class="videoList" ng-repeat="x in names | filter:test | orderBy:'-date'">
+              <div class="videoList" ng-repeat="x in names | filter: filters | orderBy:'-date'">
                 <a href="{{x.videoUrl}}" target="_blank">
                 <img class="videoimg" src="{{x.imgUrl}}" alt="F**k you and your inability to see this image"></a><br>
                 <style text-align:"center" type="text/css"></style><span class="videoName">{{x.name}}</span></style>

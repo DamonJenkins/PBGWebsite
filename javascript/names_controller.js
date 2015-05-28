@@ -1,11 +1,15 @@
-angular.module('myApp', []).controller('namesCtrl', function($scope) {
+var app = angular.module ('myApp', [])
+
+app.controller('namesCtrl', function($scope) {
+
 	$scope.number = 5;
 	$scope.getNumber = function(num) {
-    return new Array(num);   
+    return new Array(num);
+	$scope.filters = {};
 	}
 	
     $scope.
-        names = [
+		names = [
         {
         videoUrl:"https://www.youtube.com/watch?v=17N4xfw9tcE",
         imgUrl: "https://i.ytimg.com/vi/17N4xfw9tcE/hqdefault.jpg?w=240&h=136&sigh=01JQL2oIPmX_Bn4fd9PD8LxtbRk",
