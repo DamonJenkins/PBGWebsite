@@ -4,6 +4,7 @@ function startUp(){
 	setTimeout(function(){
 	$("#tsec1").css({
 		"font-family" : "Lucida Console, Monaco, monospace",
+		"transition" : "all 0.4s",
         "font-weight" : "bold",
         "text-align" : "center",
         "margin-bottom" : "12px",
@@ -34,6 +35,7 @@ function startUp(){
 	//Next
 		$("#tsec2").css({
 			"color" : "#009900",
+			"transition" : "all 0.4s",
 			"text-shadow" : "0 1px 0 #008a00,0 2px 0 #007a00,0 3px 0 #006b00,0 4px 0 #005c00,0 5px 0 #004c00,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4),0 3px 5px rgba(0,0,0,.50),0 5px 10px rgba(0,0,0,.80),0 10px 10px rgba(0,0,0,.60),0 20px 20px rgba(0,0,0,.75)",
         "margin-top" : "15px"
 	});
@@ -52,6 +54,7 @@ function startUp(){
 	//Next
 			$("#tsec3").css({
 			 	"color" : "#9900cc",
+		"transition" : "all 0.4s",
 	"text-shadow" : "0 1px 0 #8a00b8,0 2px 0 #7a00a3,0 3px 0 #6b008f,0 4px 0 #5c007a,0 5px 0 #4c0066,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4),0 3px 5px rgba(0,0,0,.50),0 5px 10px rgba(0,0,0,.80),0 10px 10px rgba(0,0,0,.60),0 20px 20px rgba(0,0,0,.75)"
 	});
 	
@@ -68,6 +71,7 @@ function startUp(){
 	//Next
 		$("#tsec4").css({
  	"color" : "#cc3300",
+		"transition" : "all 0.4s",
 	"text-shadow" : "0 1px 0 #b82e00,0 2px 0 #a32900,0 3px 0 #8f2400,0 4px 0 #7a1f00,0 5px 0 #661a00,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4),0 3px 5px rgba(0,0,0,.50),0 5px 10px rgba(0,0,0,.80),0 10px 10px rgba(0,0,0,.60),0 20px 20px rgba(0,0,0,.75)"
 	});
 	
@@ -84,6 +88,7 @@ function startUp(){
 	//Next
 			$("#tsec5").css({
 		 	 	"color" : "#FF3399",
+		"transition" : "all 0.4s",
 	"text-shadow" : "0 1px 0 #e62e8a,0 2px 0 #cc297a,0 3px 0 #b2246b,0 4px 0 #991f5c,0 5px 0 #801a4c,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.4),0 3px 5px rgba(0,0,0,.50),0 5px 10px rgba(0,0,0,.80),0 10px 10px rgba(0,0,0,.60),0 20px 20px rgba(0,0,0,.75)"
 	});
 	
