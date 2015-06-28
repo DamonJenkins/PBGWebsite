@@ -1,9 +1,17 @@
 // JavaScript Document
 
 //Function for all functions called on page load
-function startUp(){
-	checkCensor()
-}
+$(window).load(function(){
+	checkCensor();
+	$("#slide").hexSlide({
+		width: "60vw",
+		height: "36vw",
+		animation: "slide",
+		speed: 4000,
+		interval: 8000,
+		additionalCSS:{container:{"margin": "0 auto"}}
+	});
+});
 
 // Used to set a cookies value
 function setCookie(cname, cvalue, exhours){
